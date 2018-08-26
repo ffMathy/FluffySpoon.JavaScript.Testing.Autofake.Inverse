@@ -1,0 +1,43 @@
+{
+    "name": "@fluffy-spoon/autofake-inverse",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/Index.js",
+    "typings": "./dist/Index.d.ts",
+    "scripts": {
+        "test": "tsc",
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "latest",
+        "ava": "^0.25.0",
+        "ts-node": "^7.0.0",
+        "typescript": "^3.0.0"
+    },
+    "ava": {
+        "files": [
+            "./dist/spec/*.js"
+        ],
+        "sources": [
+            "./src/**/*.ts",
+            "./spec/**/*.test.ts",
+            "./dist/src/**/*.js",
+            "./dist/spec/**/*.test.js"
+        ],
+        "failFast": true,
+        "compileEnhancements": false,
+        "extensions": [
+            "ts"
+        ],
+        "require": [
+            "ts-node/register"
+        ]
+    },
+    "dependencies": {
+        "@fluffy-spoon/autofake": "^1.0.4",
+        "@fluffy-spoon/inverse": "^1.0.26",
+        "reflect-metadata": "^0.1.12"
+    }
+}
