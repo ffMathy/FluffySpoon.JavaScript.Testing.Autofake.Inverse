@@ -16,4 +16,8 @@ export default class InverseInversionOfControlRegistration extends InversionOfCo
         const args = getOrCreateArgumentsMetadataForTarget(type);
         return args.toParameterArray();
     }
+    
+    resolveInstance<T>(type: new () => T): T {
+        return this._container.resolveInstance(type);
+    }
 }

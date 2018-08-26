@@ -29,6 +29,9 @@ var InverseInversionOfControlRegistration = /** @class */ (function (_super) {
         var args = Utilities_1.getOrCreateArgumentsMetadataForTarget(type);
         return args.toParameterArray();
     };
+    InverseInversionOfControlRegistration.prototype.resolveInstance = function (type) {
+        return this._container.resolveInstance(type);
+    };
     return InverseInversionOfControlRegistration;
 }(autofake_1.InversionOfControlRegistration));
 exports.default = InverseInversionOfControlRegistration;
