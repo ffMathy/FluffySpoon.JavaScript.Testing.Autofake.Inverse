@@ -12,7 +12,7 @@
     "license": "ISC",
     "devDependencies": {
         "@types/node": "latest",
-        "ava": "^0.25.0",
+        "ava": "^3.11.1",
         "ts-node": "^7.0.0",
         "typescript": "^3.0.0"
     },
