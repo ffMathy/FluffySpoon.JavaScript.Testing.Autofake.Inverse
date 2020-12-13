@@ -36,7 +36,7 @@
         ]
     },
     "dependencies": {
-        "@fluffy-spoon/autofake": "^1.0.11",
+        "@fluffy-spoon/autofake": "^1.14.0",
         "@fluffy-spoon/inverse": "^1.0.27",
         "reflect-metadata": "^0.1.12"
     }
