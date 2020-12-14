@@ -13,7 +13,7 @@
     "devDependencies": {
         "@types/node": "latest",
         "ava": "^3.14.0",
-        "ts-node": "^7.0.0",
+        "ts-node": "^9.1.1",
         "typescript": "^4.1.3"
     },
     "ava": {
